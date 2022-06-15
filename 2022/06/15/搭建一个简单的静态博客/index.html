@@ -14,15 +14,15 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="常用的静态博客框架：  HEXO Jekyll VuePress HUgo  使用HEXO搭建的静态博客1.安装Node.jsHEXO是需要NodeJs支持的，因此需要先安装NodeJs。 12345678910mkdir &#x2F;home&#x2F;nodejscd &#x2F;home&#x2F;nodejs&#x2F;#下载wget https:&#x2F;&#x2F;nodejs.org&#x2F;dist&#x2F;v16.13.2&#x2F;node-v16.13.2-linux">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://example.com/images/node.png">
-<meta property="og:image" content="http://example.com/images/hexo.png">
-<meta property="og:image" content="http://example.com/images/myblog.png">
-<meta property="og:image" content="http://example.com/images/theme.jpg">
-<meta property="article:published_time" content="2022-06-15T05:03:07.014Z">
-<meta property="article:modified_time" content="2022-06-15T05:03:03.000Z">
+<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/node.png">
+<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/hexo.png">
+<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/myblog.png">
+<meta property="og:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/theme.jpg">
+<meta property="article:published_time" content="2022-06-15T05:06:29.127Z">
+<meta property="article:modified_time" content="2022-06-15T05:06:19.000Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/node.png">
+<meta name="twitter:image" content="http://example.com/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/node.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -74,7 +74,7 @@
         <section id="main"><article id="post-搭建一个简单的静态博客" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" class="article-date">
-  <time datetime="2022-06-15T05:03:07.014Z" itemprop="datePublished">2022-06-15</time>
+  <time datetime="2022-06-15T05:06:29.127Z" itemprop="datePublished">2022-06-15</time>
 </a>
     
   </div>
@@ -114,13 +114,13 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> /etc/profile</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
 <p>至此NodeJs安装完成。</p>
-<p><img src="/images/node.png"></p>
+<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/node.png"></p>
 <hr>
 <h2 id="2-使用npm安装HEXO"><a href="#2-使用npm安装HEXO" class="headerlink" title="2.使用npm安装HEXO"></a>2.使用npm安装HEXO</h2><p>由于国内镜像源速度很慢，先使用npm安装cnpm(淘宝的镜像源)。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br><span class="line"><span class="comment">#使用cnpm全局安装hexo</span></span><br><span class="line">cnpm install -g hexo-cli</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
 <p>至此HEXO安装完成。</p>
-<p><img src="/images/hexo.png"></p>
+<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/hexo.png"></p>
 <hr>
 <h2 id="3-使用HEXO生成博客"><a href="#3-使用HEXO生成博客" class="headerlink" title="3.使用HEXO生成博客"></a>3.使用HEXO生成博客</h2><p>创建博客的文件夹，在文件夹中初始化博客。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /home/blog</span><br><span class="line"><span class="comment">#初始化</span></span><br><span class="line">hexo init</span><br><span class="line"><span class="comment">#启动</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
@@ -129,7 +129,7 @@
 <p>创建一篇博客并编辑</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;测试文章&quot;</span></span><br><span class="line"><span class="comment">#编辑博客</span></span><br><span class="line">vim /home/blog/source/_posts/测试文章.md</span><br><span class="line"><span class="comment">#重启博客</span></span><br><span class="line"><span class="comment">#清除</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="comment">#生成</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="comment">#启动</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p><img src="/images/myblog.png"></p>
+<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/myblog.png"></p>
 <h2 id="4-将博客部署到远端"><a href="#4-将博客部署到远端" class="headerlink" title="4.将博客部署到远端"></a>4.将博客部署到远端</h2><p>使用Git提供的免费平台来部署博客</p>
 <p>首先在git上创建一个仓库，名字一定要设置为<mark style="color：green">自己的用户名</mark>+<mark style="color：green">github.io</mark>。</p>
 <p>设置配置文件</p>
@@ -142,12 +142,12 @@
 
 <p>此时通过<code>https://你的用户名.github.com</code>访问博客了</p>
 <p>如果显示404，在git仓库的seting中，到Page设置页面，Change theme选择一个主题。</p>
-<p><img src="/images/theme.jpg"></p>
+<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/theme.jpg"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" data-id="cl4f4o0ve0000kdvudcaw0g0a" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" data-id="cl4f4s61i000075vugcdohtfx" class="article-share-link">Share</a>
       
       
     </footer>
