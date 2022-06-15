@@ -1,241 +1,375 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="cn" data-default-color-scheme=auto>
+
+
+
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="kashey">
+  <meta name="keywords" content="">
   
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+    <meta name="description" content="有趣一点">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kashey&#39;s Code">
 <meta property="og:url" content="http://example.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="John Doe">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
+<meta property="og:site_name" content="Kashey&#39;s Code">
+<meta property="og:description" content="有趣一点">
+<meta property="og:locale">
+<meta property="article:author" content="kashey">
+<meta name="twitter:card" content="summary_large_image">
   
   
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
-  
-<link rel="stylesheet" href="/css/style.css">
+  <title>Kashey&#39;s Code</title>
 
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.1","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+
+  
 <meta name="generator" content="Hexo 5.4.2"></head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 100vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
         
-          <a class="main-nav-link" href="/">Home</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                Startseite
+              </a>
+            </li>
+          
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                Archiv
+              </a>
+            </li>
+          
         
-      </nav>
-      <nav id="sub-nav">
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                Kategorien
+              </a>
+            </li>
+          
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                Schlagwörter
+              </a>
+            </li>
+          
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-搭建一个简单的静态博客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" class="article-date">
-  <time datetime="2022-06-15T05:35:59.317Z" itemprop="datePublished">2022-06-15</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                Über
+              </a>
+            </li>
+          
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">HEXO搭建静态博客</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>常用的静态博客框架：</p>
-<ul>
-<li>HEXO</li>
-<li>Jekyll</li>
-<li>VuePress</li>
-<li>HUgo</li>
-</ul>
-<h1 id="使用HEXO搭建的静态博客"><a href="#使用HEXO搭建的静态博客" class="headerlink" title="使用HEXO搭建的静态博客"></a>使用HEXO搭建的静态博客</h1><h2 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1.安装Node.js"></a>1.安装Node.js</h2><p>HEXO是需要NodeJs支持的，因此需要先安装NodeJs。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /home/nodejs</span><br><span class="line"><span class="built_in">cd</span> /home/nodejs/</span><br><span class="line"><span class="comment">#下载</span></span><br><span class="line">wget https://nodejs.org/dist/v16.13.2/node-v16.13.2-linux-x64.tar.xz</span><br><span class="line"><span class="comment">#解压</span></span><br><span class="line">tar -vxf node-v16.13.2-linux-x64.tar.xz</span><br><span class="line"><span class="comment">#创建软链接</span></span><br><span class="line"><span class="built_in">cd</span> /home/nodejs/node-v16.13.2-linux-x64/bin</span><br><span class="line"><span class="built_in">ln</span> -s /home/nodejs/node-v16.13.2-linux-x64/bin/node /usr/local/bin/node</span><br><span class="line"><span class="built_in">ln</span> -s /home/nodejs/node-v16.13.2-linux-x64/bin/npm /usr/local/bin/npm</span><br></pre></td></tr></table></figure>
-
-<p>这时查看node版本会报错：<code>-bash: xxx: command not found</code></p>
-<p>需要将 node 添加进系统环境变量</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#备份</span></span><br><span class="line"><span class="built_in">cp</span> /etc/profile /home/nodejs</span><br><span class="line">vim /etc/profile</span><br></pre></td></tr></table></figure>
-
-<p>末尾添加：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># nodejs</span></span><br><span class="line"><span class="built_in">export</span> PATH=<span class="variable">$PATH</span>:/home/nodejs/node-v16.13.2-linux-x64/bin</span><br></pre></td></tr></table></figure>
-
-<p>重新加载配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> /etc/profile</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
-
-<p>至此NodeJs安装完成。</p>
-<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/node.png"></p>
-<hr>
-<h2 id="2-使用npm安装HEXO"><a href="#2-使用npm安装HEXO" class="headerlink" title="2.使用npm安装HEXO"></a>2.使用npm安装HEXO</h2><p>由于国内镜像源速度很慢，先使用npm安装cnpm(淘宝的镜像源)。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br><span class="line"><span class="comment">#使用cnpm全局安装hexo</span></span><br><span class="line">cnpm install -g hexo-cli</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-
-<p>至此HEXO安装完成。</p>
-<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/hexo.png"></p>
-<hr>
-<h2 id="3-使用HEXO生成博客"><a href="#3-使用HEXO生成博客" class="headerlink" title="3.使用HEXO生成博客"></a>3.使用HEXO生成博客</h2><p>创建博客的文件夹，在文件夹中初始化博客。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> /home/blog</span><br><span class="line"><span class="comment">#初始化</span></span><br><span class="line">hexo init</span><br><span class="line"><span class="comment">#启动</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>至此博客已经启动了，可以通过服务器的IP地址来对博客进行访问了。</p>
-<p>创建一篇博客并编辑</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;测试文章&quot;</span></span><br><span class="line"><span class="comment">#编辑博客</span></span><br><span class="line">vim /home/blog/source/_posts/测试文章.md</span><br><span class="line"><span class="comment">#重启博客</span></span><br><span class="line"><span class="comment">#清除</span></span><br><span class="line">hexo clean</span><br><span class="line"><span class="comment">#生成</span></span><br><span class="line">hexo g</span><br><span class="line"><span class="comment">#启动</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/myblog.png"></p>
-<h2 id="4-将博客部署到远端"><a href="#4-将博客部署到远端" class="headerlink" title="4.将博客部署到远端"></a>4.将博客部署到远端</h2><p>使用Git提供的免费平台来部署博客</p>
-<p>首先在git上创建一个仓库，名字一定要设置为<mark style="color：green">自己的用户名</mark>+<mark style="color：green">github.io</mark>。</p>
-<p>设置配置文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">vim _config.yml </span><br><span class="line"><span class="comment">#行末写：</span></span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repo: 你的git仓库的地址</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
-
-<p><mark>注意，冒号后面有一个空格！</mark></p>
-<p>若使用HTTP协议不成功，换成SSH试试。</p>
-<p>创建好后回到控制台，安装git插件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git</span><br><span class="line"><span class="comment">#部署到远端</span></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-
-<p>此时通过<code>https://你的用户名.github.com</code>访问博客了</p>
-<p>如果显示404，在git仓库的seting中，到Page设置页面，Change theme选择一个主题。</p>
-<p><img src="/images/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/theme.jpg"></p>
-<h2 id="5-插入图片"><a href="#5-插入图片" class="headerlink" title="5.插入图片"></a>5.插入图片</h2><p>sourse为博客的资源文件夹，在sourse目录下创建images文件夹，用来存放资源图片（images必须是这个名称否则无效）</p>
-<p>将图片显示出来</p>
-<img src="/images/test.png" width="50%">
-
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![](<span class="link">/images/test.png</span>)</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;/images/test.png&quot;</span> <span class="attr">width</span>=<span class="string">50%</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
-
-
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" data-id="cl4f5u0px0000pmvu82ecdm41" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
         
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/06/">June 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
         
-          <li>
-            <a href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">HEXO搭建静态博客</a>
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
           </li>
         
       </ul>
     </div>
   </div>
+</nav>
 
   
-</aside>
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="An elegant Material-Design theme for Hexo"></span>
+          
+        </div>
+
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2022 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+
+      
+        <div class="scroll-down-bar">
+          <i class="iconfont icon-arrowdown"></i>
+        </div>
+      
     </div>
   </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          style="margin-top: 0">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <article class="col-12 col-md-12 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" target="_self">
+          HEXO搭建静态博客
+        </a>
+      </h1>
+
+      
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/06/15/%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" target="_self">
+        <div>
+          常用的静态博客框架：  HEXO Jekyll VuePress HUgo  使用HEXO搭建的静态博客1.安装Node.jsHEXO是需要NodeJs支持的，因此需要先安装NodeJs。 12345678910mkdir &#x2F;home&#x2F;nodejscd &#x2F;home&#x2F;nodejs&#x2F;#下载wget https:&#x2F;&#x2F;nodejs.org&#x2F;dist&#x2F;v16.13.2&#x2F;node-v16.13.2-linux
+        </div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-06-15 13:35" pubdate>
+              2022-06-15
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
 
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Suchen</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">Stichwort</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
   </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">Blog funktioniert am besten mit aktiviertem JavaScript</div>
+  </noscript>
 </body>
 </html>
