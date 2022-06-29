@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>工作记录</title>
+    <link href="/2022/06/29/2022-06-29%20%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95%20%E4%B8%A5%E8%87%AA%E5%BC%BA/"/>
+    <url>/2022/06/29/2022-06-29%20%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95%20%E4%B8%A5%E8%87%AA%E5%BC%BA/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="工作记录"><a href="#工作记录" class="headerlink" title="工作记录"></a>工作记录</h1><h3 id="1-公司培训的考核"><a href="#1-公司培训的考核" class="headerlink" title="1.公司培训的考核"></a>1.公司培训的考核</h3><h3 id="2-Source-Insight使用问题"><a href="#2-Source-Insight使用问题" class="headerlink" title="2.Source Insight使用问题"></a>2.Source Insight使用问题</h3><p><a href="https://www.cnblogs.com/hmy-666/p/15702955.html">解决拉取推送报错</a></p><h3 id="3-使用字符型打印整形变量"><a href="#3-使用字符型打印整形变量" class="headerlink" title="3.使用字符型打印整形变量"></a>3.使用字符型打印整形变量</h3><figure><div class="code-wrapper"><pre class="line-numbers language-c++" data-language="c++"><code class="language-c++">#include &lt;iostream&gt;using namespace std;int main()&#123;int a &#x3D;12;printf(&quot;print:%d&quot;,a);printf(&quot;print:%s&quot;,a);return 0;&#125;&#x2F;&#x2F;%s为打印字符串的占位符，由于字符串有终止符\0，当用%s打印整形时，由于没有终止符，会导致打印出错。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div></figure><h3 id="4-服务器配置工具"><a href="#4-服务器配置工具" class="headerlink" title="4.服务器配置工具"></a>4.服务器配置工具</h3><h4 id="4-1QT4-1-2安装"><a href="#4-1QT4-1-2安装" class="headerlink" title="4.1QT4.1.2安装"></a>4.1QT4.1.2安装</h4>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>工作记录</title>
+    <link href="/2022/06/28/2022-06-28-%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95%20%E4%B8%A5%E8%87%AA%E5%BC%BA/"/>
+    <url>/2022/06/28/2022-06-28-%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95%20%E4%B8%A5%E8%87%AA%E5%BC%BA/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="工作记录"><a href="#工作记录" class="headerlink" title="工作记录"></a>工作记录</h1><h3 id="1-完成了开发环境的安装"><a href="#1-完成了开发环境的安装" class="headerlink" title="1.完成了开发环境的安装"></a>1.完成了开发环境的安装</h3><ul><li>Visual Studio 2019</li></ul><blockquote><ul><li>内存擦除模块</li><li>Linux远程调试模块</li></ul></blockquote><ul><li>TortoiseGit</li><li>Xshell</li><li>WinSCP</li><li>Source Insight</li><li>navicat</li></ul><h3 id="2-TortoiseGit的使用"><a href="#2-TortoiseGit的使用" class="headerlink" title="2.TortoiseGit的使用"></a>2.TortoiseGit的使用</h3><p><em>TortoiseGit提供了人性化的图形化界面，不用像Git一样输入许多语句，可视化操作界面有助于提高效率。</em></p><p><a href="https://blog.csdn.net/hailongcsdn/article/details/106399635">一篇基本操作的参考</a></p><h3 id="3-Source-Insight安装、破解、汉化"><a href="#3-Source-Insight安装、破解、汉化" class="headerlink" title="3. Source Insight安装、破解、汉化"></a>3. Source Insight安装、破解、汉化</h3><p><a href="https://blog.csdn.net/xiaochenXIHUA/article/details/125324558">Source Insight的安装与使用</a></p><hr>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>后端的书籍资料</title>
     <link href="/2022/06/17/C++%E5%90%8E%E7%AB%AF%E7%9A%84%E4%B9%A6%E7%B1%8D%E8%B5%84%E6%96%99/"/>
     <url>/2022/06/17/C++%E5%90%8E%E7%AB%AF%E7%9A%84%E4%B9%A6%E7%B1%8D%E8%B5%84%E6%96%99/</url>
